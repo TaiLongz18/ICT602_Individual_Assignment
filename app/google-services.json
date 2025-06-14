@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "322013924177",
+    "project_id": "izat01",
+    "storage_bucket": "izat01.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322013924177:android:3468c07085c3703b51e170",
+        "android_client_info": {
+          "package_name": "com.example.assignment_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs7Z1-wWoNxu0CXw7n_fPx-icdE-neceg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

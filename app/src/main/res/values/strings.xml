@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">PowerSaver</string>
+    <string name="powersaver">PowerSaver</string>
+    <string name="select_month">Select Month</string>
+    <string name="electricity_usage_kwh">Electricity Usage (kWh)</string>
+    <string name="e_g_250">e.g. 250</string>
+    <string name="select_rebate">Select Rebate (%)</string>
+    <string name="rebate_0">Rebate: 0%</string>
+    <string name="calculate_amp_save"><![CDATA[CALCULATE & SAVE]]></string>
+    <string name="view_saved_bills">VIEW SAVED BILLS</string>
+    <string name="about">ABOUT</string>
+    <string name="total_charges_rm0_00">Total Charges: RM0.00</string>
+    <string name="final_cost_after_rebate_rm0_00">Final Cost after Rebate: RM0.00</string>
+    <string name="about_this_app">About This App</string>
+    <string name="student_name_zaqwan">Student Name: Zaqwan</string>
+    <string name="student_id_2021123456">Student ID: 2021123456</string>
+    <string name="course_ict602_mobile_technology_and_development">Course: ICT602 - Mobile Technology and Development</string>
+    <string name="_2025_zaqwan_all_rights_reserved">© 2025 Zaqwan. All rights reserved.</string>
+    <string name="view_source_code_on_github">View Source Code on GitHub</string>
+    <string name="_2025_izat_all_rights_reserved">© 2025 Izat. All rights reserved.</string>
+    <string name="student_id_2024554583">Student ID: 2024554583</string>
+    <string name="student_name_izat">Student Name: Izat</string>
+    <string name="course_ict602_mobile_technology_and_developmentt">Course: ICT602 - Mobile Technology and Development</string>
+    <string name="about_this_apps">About This App</string>
+    <string name="e_g_250a">e.g. 250</string>
+    <string name="student_name_Muhammad_Izat_Syafik_bin_Jainal_Abidin">new</string>
+    <string name="student_name_Muhammad_Izat_Syafik_bin_Jainal_Abidin_HA">Muhammad Izat Syafik bin Jainal Abidin</string> <!-- or any name you like -->
+    <string-array name="month_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+
+</resources>

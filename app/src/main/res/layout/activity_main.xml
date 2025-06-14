@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#000000">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Title -->
+        <TextView
+            android:text="@string/powersaver"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Month Spinner -->
+        <TextView
+            android:text="@string/select_month"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Units Input -->
+        <Spinner
+            android:id="@+id/spinnerMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box_white"
+            android:popupBackground="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:text="@string/electricity_usage_kwh"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editTextUnits"
+            android:hint="e.g. 250"
+            android:inputType="numberDecimal"
+            android:textColor="#000000"
+            android:background="@drawable/box_white"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Rebate SeekBar -->
+        <TextView
+            android:text="@string/select_rebate"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <SeekBar
+            android:id="@+id/seekBarRebate"
+            android:max="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textViewRebateValue"
+            android:text="@string/rebate_0"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/buttonCalculate"
+            android:text="@string/calculate_amp_save"
+            android:layout_marginTop="24dp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonViewList"
+            android:text="@string/view_saved_bills"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonAbout"
+            android:text="@string/about"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Results -->
+        <TextView
+            android:id="@+id/textViewTotalCharges"
+            android:text="@string/total_charges_rm0_00"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textViewFinalCost"
+            android:text="@string/final_cost_after_rebate_rm0_00"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
