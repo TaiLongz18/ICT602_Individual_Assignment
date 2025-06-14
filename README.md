@@ -46,5 +46,5 @@ For 250 kWh and 5% rebate:
 
 ## 📹 Demo
 
-Watch a short demo on YouTube:
+Watch a short demo on YouTube: https://youtu.be/k92DDYmreHY
 
